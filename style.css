@@ -322,5 +322,22 @@ h3{
 }
 
 @media(max-width: 700px){
-    
+    cta.h1{
+        font-size: 21px;
+    }
+}
+
+
+/* --------------Footer-----------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer.h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
