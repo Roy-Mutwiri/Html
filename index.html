@@ -15,7 +15,8 @@
             <nav>
                 <a href="index.html"> <img src="pics/cropped-rsz_2logo.jpg"> </a>
                 <div
-                    class = "nav-links">
+                    class = "nav-links" id="navLinks">
+                    <i class="fa fa-times"onclick="hidemenu()"></i>
                     <ul>
                         <li><a href="">HOME</a></li>
                         <li><a href="">ABOUT</a></li>
@@ -25,6 +26,7 @@
 
                     </ul>
                 </div>
+                <i class="fa fa-bars"onclick="showmenu()"></i>
             </nav>
 <div class="text-box">
     <h1> Kenya's Advanced College</h1>
@@ -42,6 +44,29 @@
     <a href=""class="hero-btn">Visit Us To Know More</a>
 </div>
     </section>
+
+    <!------Course---------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1> 
+        <p>Information Communication Technology</p>
+    </section>
+
+
+  <!-------------------JavaScript For Toggle Menu----------------  ------>
+<script>
+    var navLinks= document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0";
+
+    }
+
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+</script>
     
 </body>
 </html>
