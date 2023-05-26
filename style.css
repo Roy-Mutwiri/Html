@@ -275,9 +275,15 @@ h3{
 .facilities-col img{
     width: 100%;
     border-radius: 1;
+    
 }
 
 .facilities-col p{
     padding: 0;
 }
 
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
