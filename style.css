@@ -293,3 +293,10 @@ h3{
 
 /*---------Testimonials-------*/
 
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
