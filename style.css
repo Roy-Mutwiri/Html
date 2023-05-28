@@ -359,3 +359,22 @@ h3{
     color: #fff;
 }
 
+
+.about-us{
+
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+
+    flex-basis: 48%;
+    padding: 30px 2 px;
+}
+
+
+.about-col img{
+    width: 100%;
+}
