@@ -1,8 +1,10 @@
 
-{
-    margin: 0;
+*{
+    margin:0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
+    
 }
 
 .header{
@@ -12,17 +14,18 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    border-radius: 5px;
 }
 
 nav{
     display: flex;
-    padding: 2% 6%;
+    padding: 1% 1%;
     justify-content: space-between;
     align-items: center;
 }
 
 nav img{
-    width: 80px;
+    width: 90px;
     border-radius: 10px;
 }
 .nav-links{
@@ -66,10 +69,15 @@ nav img{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+
 }
 
 .text-box h1{
-    font-size: 62px;
+    font-size: 42px;
+    position: relative;
+    visibility: visible;
+    
+
 }
 
 .text-box p{
