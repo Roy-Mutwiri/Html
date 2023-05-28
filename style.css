@@ -51,7 +51,6 @@ nav {
     
 }
 .backg-bar h1{
-    order: 2;
     color: #fff;
     font-size: 18px;
     margin-left: 10px;
@@ -64,8 +63,7 @@ nav img {
 }
 
 .nav-links {
-    flex: 1;
-    text-align: right;
+    justify-content: flex-end;
 
 
 }
@@ -459,3 +457,20 @@ h3 {
 .red-btn:hover {
     color: white;
 }
+
+.animated-picture {
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fade-in 1s forwards; /* Apply the fade-in animation */
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0; /* Start with opacity 0 */
+      transform: translateX(100px); /* Move the pictures down by 50px */
+    }
+    100% {
+      opacity: 1; /* End with opacity 1 */
+      transform: translateX(0); /* Reset the transform */
+    }
+  }
+  
