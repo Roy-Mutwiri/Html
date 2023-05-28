@@ -480,17 +480,39 @@ h3 {
     right: 0;
     transform: translateY(-50%);
     opacity: 0;
-    animation: slide-in 1s forwards;
+    animation: slide-in 8s forwards infinite;
+    width: auto;
+    max-height: 80vh;
   }
+
+  .animated-picture:nth-child(1) {
+    right: 0%;
+  }
+  
+  .animated-picture:nth-child(2) {
+    right: 33.33%;
+  }
+  
+  .animated-picture:nth-child(3) {
+    right: 66.66%;
+
+  }
+
   
   @keyframes slide-in {
     0% {
       opacity: 0;
       transform: translateX(100%);
     }
-    100% {
+    10%,
+    90% {
       opacity: 1;
       transform: translateX(0);
+
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-100%);
     }
   }
   
