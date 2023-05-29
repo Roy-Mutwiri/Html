@@ -44,6 +44,11 @@ nav.sticky ul{
     cursor: pointer;
     border-radius: 5px;
 }
+.logo-text{
+    color: #f44336;
+    font-size: 18px;
+    margin-left: 10px;
+}
 nav ul{
     background: black;
     width: 100%;
