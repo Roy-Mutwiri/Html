@@ -16,6 +16,12 @@
     <section class="header">
         
         <div class="backg-bar">
+            <script type="text/javascript">
+                window.addEventListener("scroll", function(){
+                    var header = document.querySelector("header")
+                    header.classList.toggle("sticky", window.scrollY)
+                })
+            </script>
 
             <nav>
                 <a href="index.html"> <img src="pics/cropped-rsz_2logo.jpg"> </a>
