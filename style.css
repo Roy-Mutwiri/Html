@@ -14,6 +14,7 @@
     background-size: cover;
     position: relative;
     border-radius: 5px;
+    
 }
 
 nav{
@@ -53,6 +54,7 @@ nav ul{
     background: black;
     width: 100%;
     margin-top: -5px;
+    cursor: pointer;
 
 }
 nav ul li{
@@ -77,6 +79,7 @@ nav ul li{
     font-size: 42px;
     position: relative;
     visibility: visible;
+    
 
 
 }
@@ -331,6 +334,7 @@ h3 {
     background-size: cover;
     text-align: center;
     color: #fff;
+    
 }
 
 
