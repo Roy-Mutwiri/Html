@@ -68,6 +68,7 @@ header {
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
+    
 }
 
 .action_btn:hover{
@@ -118,7 +119,7 @@ header {
         display: none;
     }
 
-    .navbar .toggle_btn {
+    .navbar .toggle_btn{
         display: block;
     }
     .dropdown_menu {
