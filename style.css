@@ -21,7 +21,7 @@ a:hover{
     color: orange;
 }
 
-.header {
+header {
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(pics/pang-yuhao-_kd5cxwZOK4-unsplash.jpg);
@@ -29,8 +29,32 @@ a:hover{
     background-size: cover;
     position: relative;
     border-radius: 5px;
+    padding: 0 2rem;
     
 }
+
+.navbar{
+
+    width: 100%;
+    height: 60px;
+    max-width: 120px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar.links{
+
+    display: flex;
+    gap: 2rem;
+}
+
 
 
 .text-box {
