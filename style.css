@@ -111,17 +111,6 @@ header {
     justify-content: center;
 
 }
-/*-----Hero---------*/
-
-section#hero{
-    height: calc(100vh - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-}
 
 
 /*-------Responsive Design---------*/
@@ -172,7 +161,7 @@ section#hero{
 .text-box p {
     margin: 10px 0 40px;
     font-size: 14px;
-    color: blanchedalmond;
+    color: rgb(250, 250, 250);
 }
 
 .hero-btn {
