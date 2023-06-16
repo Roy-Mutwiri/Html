@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name = "viewport" content="with=device-width, initial-scale=1.0" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamukunji TVC</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-
-
-</style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 <body>
-    
     <header>
         <div class="navbar">
             <div class="logo"><a href="#"><br><br>Kamukunji<br>Technical<br>College</a></div>
@@ -31,29 +27,25 @@
         </div>
 
         <div class="dropdown_menu">
-            <li><a href="#Home">Home</a></li>
+            <ul>
+                <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Admin">Admin</a></li>
                 <li><a href="#Services">Services</a></li>
                 <li><a href="#Contact">Contact</a></li> 
                 <li><a href="#" class="action_btn">Login</a></li>
-
+            </ul>
         </div>
-       
-           
-        
-
-    </header> 
+    </header>
 
     <script>
-        const toggleBtn = document.querySelector('.toggle_btn')
-        const toggleBtnIcon = document.querySelector('.toggle_btn i')
-        const dropDownMenu= document.querySelector('.dropdown_menu')
-
+        const toggleBtn = document.querySelector('.toggle_btn');
+        const toggleBtnIcon = document.querySelector('.toggle_btn i');
+        const dropDownMenu = document.querySelector('.dropdown_menu');
 
         toggleBtn.onclick = function(){
-            dropDownMenu.classList.toggle('open')
-        }
+            dropDownMenu.classList.toggle('open');
+        };
     </script>
 
     <div class="text-box">
