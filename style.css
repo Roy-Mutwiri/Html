@@ -54,6 +54,7 @@ header {
     color: #fff;
     font-size: 1.5rem;
     cursor: pointer;
+    display: none;
     
 }
 .action_btn {
@@ -71,12 +72,12 @@ header {
 
 .action_btn:hover{
 
-    transform : scale (1.05);
+    scale: 1.05;
     color: #fff;
 }
 .action_btn:active{
 
-    transform: scale(0.95);
+    scale:0.95;
 }
 /*---drop_down----*/
 
@@ -111,13 +112,13 @@ header {
 }
 
 /*-------Responsive Design---------*/
-@media(max-width: 992px){
+@media (max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
         display: none;
     }
 
-    .navbar.toggle_btn{
+    .navbar .toggle_btn {
         display: block;
     }
     .dropdown_menu {
