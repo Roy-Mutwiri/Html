@@ -42,6 +42,7 @@ header {
 .navbar .logo a {
     font-size: 1.5rem;
     font-weight: bold;
+    
 }
 
 .navbar .links {
@@ -55,8 +56,28 @@ header {
     cursor: pointer;
     display: none;
 }
+.action_btn {
+    background-color: orange;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
 
+.action_btn:hover{
 
+    scale: 1.05;
+    color: #fff;
+}
+.action_btn:active{
+
+    scale: 0.95;
+}
 
 .text-box {
     width: 90%;
