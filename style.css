@@ -497,15 +497,15 @@ h3 {
 
 .form-box h1::after{
 
-    content: "";
+    content: '';
     width: 30px;
     height: 4px;
     border-radius: 3px;
     background: #3c00a0;
     position: absolute;
     bottom: -12px;
-    left: 50px;
-    transform: translate(-50%);
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
