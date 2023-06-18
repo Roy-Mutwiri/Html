@@ -543,3 +543,35 @@ font p a{
     text-decoration: none;
     color: #3c00a0;
 }
+
+.btn-field{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field button{
+
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group{
+
+    height: 280px;
+
+}
+
+.btn-field button.disable{
+
+    background: #eaeaea;
+    color: #555;
+}
