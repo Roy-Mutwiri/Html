@@ -355,7 +355,7 @@ h3 {
     padding-top: 100px;
     text-align: center;
 }
-.testimonials-col{
+.testimonial-col{
     flex-basis: 44%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -365,7 +365,7 @@ h3 {
     cursor: pointer;
     display: flex;
 }
-.testimonials-col img{
+.testimonial-col img{
     height: 40px;
     margin-left: 5px;
     margin-right: 30px;
