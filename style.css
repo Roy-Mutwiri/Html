@@ -349,12 +349,13 @@ h3 {
 /*---------Testimonials-------*/
 
 
-.testimonial {
+.testimonials {
     width: 80%;
     margin: auto;
     padding-top: 100px;
     text-align: center;
 }
+
 .testimonial-col{
     flex-basis: 44%;
     border-radius: 10px;
