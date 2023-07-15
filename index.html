@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 <body>
-    
+
     <header>
 
         <div class="navbar">
@@ -65,11 +65,29 @@
     <div class="text-box">
 
         
-            <h1>Kamukunji Technical College</h1>
+            <h1>~</h1>
+            <h3 id="current-time"></h3>
+                <div class="quotes">
+                    <p>Today's Quote</p>
+                    <h2>Kupumkika Ni Heaven</h2>
+                </div>
+            
             
 
 
     </div>
+
+    <script>
+        let time = document.getElementById("current-time");
+
+        setInterval(() => {
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+
+        },1000);
+        
+
+    </script>
 </section>
     
 
